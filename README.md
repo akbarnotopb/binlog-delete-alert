@@ -1,7 +1,10 @@
 Python binlog basic listener and `hard delete` email alert using `smtplib`. It is created by using [python-mysql-replication](https://github.com/julien-duponchelle/python-mysql-replication) package.
 
+# Note
+Based on [python-mysql-replication](https://github.com/julien-duponchelle/python-mysql-replication) package, you might need to run this with `pypy` for better performance & optimization. 
+
 # Setup
-1. Install required package on `requirements.txt`
+1. Install required package. `pypy -m pip install -r requirements.txt`
 2. You might need to install mysql connector
 3. adjust your environment in `.env` , you can copy from `.env.example`
 4. adjust event & alert configuration `listener.json`
@@ -19,3 +22,10 @@ Python binlog basic listener and `hard delete` email alert using `smtplib`. It i
 | `recipient`       | List of email that you want to send `deleterows` notification                                                                                                                                         |
 | `cc`              | List of email that you want to send `deleterows` notification as `cc`                                                                                                                                 |
 | `bcc`             | List of email that you want to send `deleterows` notification as `bcc`      
+
+
+# Tested on
+- python 3.10
+- pypy3.9
+- mysql 8.0 (docker)
+- windows
