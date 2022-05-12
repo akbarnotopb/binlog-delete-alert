@@ -8,7 +8,7 @@ Based on [python-mysql-replication](https://github.com/julien-duponchelle/python
 2. You might need to install mysql connector
 3. adjust your environment in `.env` , you can copy from `.env.example`
 4. adjust event & alert configuration `listener.json`
-5. run
+5. run `pypy main.py`
 
 # Alert Configuration
 | key               | description                                                                                                                                                                                           |
