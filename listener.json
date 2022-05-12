@@ -1,0 +1,11 @@
+{
+    "only_schemas" : true,
+    "ignored_schemas" : null,
+    "only_tables" : true,
+    "ignored_tables" : null,
+    "only_events": true,
+    "ignored_events" : null,
+    "recipient" : ["akbar.exp57@gmail.com"],
+    "cc" : [],
+    "bcc" : []
+}
