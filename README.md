@@ -1,3 +1,5 @@
+Python binlog basic listener and `hard delete` email alert using `smtplib`. It is created by using [python-mysql-replication](https://github.com/julien-duponchelle/python-mysql-replication) package.
+
 # Setup
 1. Install required package on `requirements.txt`
 2. You might need to install mysql connector
