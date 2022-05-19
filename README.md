@@ -21,8 +21,8 @@ Based on [python-mysql-replication](https://github.com/julien-duponchelle/python
 | `ignore_events`   | List of event you want to ignore. The default value is `null` which means you do not ignore any event.  Available value: `deleterows` , `writerows` , `updaterows` , `tablemap`, `query`.             |
 | `recipient`       | List of email that you want to send `deleterows` notification                                                                                                                                         |
 | `cc`              | List of email that you want to send `deleterows` notification as `cc`                                                                                                                                 |
-| `bcc`             | List of email that you want to send `deleterows` notification as `bcc`      
-
+| `bcc`             | List of email that you want to send `deleterows` notification as `bcc`                                    |
+| `save_last_delete`              | Save your last delete event's timestamp. It is used to skip any binlog event until your last run timestamp.. Example: Last run is C -> kill the program -> rerun the program -> the app will skip dumping the events until its `timestamp >= C`.                                                                                                                               |
 
 # Tested on
 - python 3.10

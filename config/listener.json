@@ -7,5 +7,6 @@
     "ignored_events" : null,
     "recipient" : ["akbar.exp57@gmail.com"],
     "cc" : [],
-    "bcc" : []
+    "bcc" : [],
+    "save_last_delete" : false
 }
